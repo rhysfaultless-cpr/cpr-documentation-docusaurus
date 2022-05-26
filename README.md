@@ -10,7 +10,7 @@ Tools used:
 1. [Node.js](https://nodejs.org/en/)
 2. [Docusaurus](https://docusaurus.io/) *by Facebook / Meta*
 3. [GitHub](https://github.com/)
-4. [AWS Amplify](https://vercel.com/)
+4. [AWS Amplify](https://aws.amazon.com/amplify/)
 
 Steps to run this on your computer locally:
 
