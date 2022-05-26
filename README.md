@@ -1,18 +1,18 @@
 # cpr-documentation-docusaurus
 
-Links to the deployed website:
+## Links to the deployed website:
 
-- [production branch|https://production.d2hzran61xipnf.amplifyapp.com/]
-- [development branch|https://development.d2hzran61xipnf.amplifyapp.com/]
+- [production branch](https://production.d2hzran61xipnf.amplifyapp.com/)
+- [development branch](https://development.d2hzran61xipnf.amplifyapp.com/)
 
-Tools used:
+## Tools used:
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Docusaurus](https://docusaurus.io/) *by Facebook / Meta*
 3. [GitHub](https://github.com/)
 4. [AWS Amplify](https://aws.amazon.com/amplify/)
 
-Steps to run this on your computer locally:
+## Steps to run this on your computer locally:
 
 1. system dependencies, common to most web development
   1. VS code, or similar editor
