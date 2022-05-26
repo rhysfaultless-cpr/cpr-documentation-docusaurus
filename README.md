@@ -1,11 +1,16 @@
 # cpr-documentation-docusaurus
 
+Links to the deployed website:
+
+- [production branch|https://production.d2hzran61xipnf.amplifyapp.com/]
+- [development branch|TODO]
+
 Tools used:
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Docusaurus](https://docusaurus.io/) *by Facebook / Meta*
 3. [GitHub](https://github.com/)
-4. [Vercel](https://vercel.com/)
+4. [AWS Amplify](https://vercel.com/)
 
 Steps to run this on your computer locally:
 
