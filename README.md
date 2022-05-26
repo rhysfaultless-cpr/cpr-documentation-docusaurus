@@ -3,7 +3,7 @@
 Links to the deployed website:
 
 - [production branch|https://production.d2hzran61xipnf.amplifyapp.com/]
-- [development branch|TODO]
+- [development branch|https://development.d2hzran61xipnf.amplifyapp.com/]
 
 Tools used:
 
