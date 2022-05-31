@@ -1,23 +1,27 @@
 :root {
-  --ifm-color-primary: #F5D30F;
-  --ifm-color-primary-dark: #F5D30F;
-  --ifm-color-primary-darker: #F5D30F;
-  --ifm-color-primary-darkest: #F5D30F;
-  --ifm-color-primary-light: #F5D30F;
-  --ifm-color-primary-lighter: #F5D30F;
-  --ifm-color-primary-lightest: #F5D30F;
+  --ifm-color-primary: #383838;
+  --ifm-color-primary-dark: #323232;
+  --ifm-color-primary-darker: #303030;
+  --ifm-color-primary-darkest: #272727;
+  --ifm-color-primary-light: #3e3e3e;
+  --ifm-color-primary-lighter: #404040;
+  --ifm-color-primary-lightest: #494949;
+  --ifm-background-color: #e6e6e6;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #e9e9e9;
+  --ifm-background-surface-color: #acacac;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #F5D30F;
-  --ifm-color-primary-dark: #F5D30F;
-  --ifm-color-primary-darker: #F5D30F;
-  --ifm-color-primary-darkest: #F5D30F;
-  --ifm-color-primary-light: #F5D30F;
-  --ifm-color-primary-lighter: #F5D30F;
-  --ifm-color-primary-lightest: #F5D30F;
+  --ifm-color-primary: #f5d30f;
+  --ifm-color-primary-dark: #e1c109;
+  --ifm-color-primary-darker: #d4b609;
+  --ifm-color-primary-darkest: #af9607;
+  --ifm-color-primary-light: #f6d828;
+  --ifm-color-primary-lighter: #f7da34;
+  --ifm-color-primary-lightest: #f8e15a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
 }
