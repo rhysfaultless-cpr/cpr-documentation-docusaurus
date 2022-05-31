@@ -43,7 +43,7 @@ const config = {
         title: ' ',
         logo: {
           alt: 'Clearpath Robotics',
-          src: 'img/site-images/logo_black.png',
+          src: 'img/site-images/logo_yellow.png',
           srcDark: 'img/site-images/logo_white.png',
         },
         items: [
