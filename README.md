@@ -15,9 +15,12 @@
 ## Steps to run this on your computer locally
 
 1. System dependencies, common to most web development
-    1. VS code, or similar editor
-    2. Terminal configured to work with this GitHub repository
-    3. Node.js is installed
+    1.  VS code, or similar editor
+        - Extension: _Git Lens_
+        - Extension: _Prettier_
+        - Extension: _MDX_
+    2.  Terminal configured to work with this GitHub repository
+    3.  Node.js is installed
 2. Clone this repository
 3. Open the folder
 4. In a terminal, navigate to the root of the project folder and run `npm install`
@@ -43,3 +46,17 @@ The default address is http://localhost:3000/ but this may change if you are alr
 2. Refer to [Docusaurus's guide](https://docusaurus.io/docs/next/markdown-features) for supported Markdown features
 3. For advanced users, refer to [Markdown MDX](https://mdxjs.com/) for adding React Components to a Markdown file
 4. for advanced users, you may create React pages using *.js* or *.ts* file types
+
+## Where should I place files
+
+1.  Markdown page
+
+        /docs
+
+2.  Markdown component, like a section to be reused in multiple pages
+
+        /docs/0_components
+
+3.  Images
+
+        /static/img
