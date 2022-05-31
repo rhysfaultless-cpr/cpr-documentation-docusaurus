@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/site-images/favicon.ico',
 
   i18n: {
     defaultLocale: 'en',
@@ -42,9 +42,9 @@ const config = {
       navbar: {
         title: ' ',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/clearpath_robotics_transparent_dark.png',
-          srcDark: 'img/clearpath_robotics_transparent_light.png',
+          alt: 'Clearpath Robotics',
+          src: 'img/site-images/logo_yellow.png',
+          srcDark: 'img/site-images/logo_white.png',
         },
         items: [
           {
