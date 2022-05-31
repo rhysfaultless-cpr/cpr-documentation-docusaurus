@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import TroubleshootingContact from '/docs/0_components/troubleshooting_contact.md'
+
+
 # Velodyne Puck
 
 <center>
@@ -115,16 +118,6 @@ You will need to update the robot’s URDF if you have more of this sensor than 
 
 ## Troubleshooting
 
-| Issue                                          | Troubleshooting Steps |
-| :--------------------------------------------- | :-------------------- |
-| Sensor is not turning on                       | <ol><li>Turn the robot off</li><li>Check that connectors are fully seated</li><li>Turn on the robot and see if the sensor is turning on</li><li>If it does not turn on, unplug the rectangular power connector</li><li>With a multimeter, measure the voltage across positions 2 and 6 on the robot’s connector</li><li>If the measurement is 12 V, then there is likely an issue with the sensor, and you should contact Clearpath Robotics</li><li>If the measurement is 0 V, then the 12 V fuse on your robot has likely failed. Shut off the robot, replace the fuse, and then replace the sensor’s rectangular connector.</li></ol> |
-| Cannot ping the sensor on the robot’s computer | <ol><li>Turn the robot on</li><li>Connect your laptop to a spare RJ45 Ethernet port on the robot</li><li>Configure your laptop’s Ethernet port to a static address of 192.168.131.250, and a subnet of 255.255.255.0</li><li>In a new terminal session, enter :code: ping 192.168.131.20. This address</li><li>The sensor if working properly if you revceive Reply messages</li><li>If you do not get Reply messages, then the issue is likely: <ol><li>Your Ethernet cable has an issue</li><li>Your laptop’s Ethernet port is not configured properly</li><li>The sensor’s IP address is not the same as what you entered into the terminal</li><li>The sensor is not on</li></ol></li></ol> |
-| Sensor’s rostopics are not listed              |                       |
-| Sensors rostopics don’t have any data          |                       |
-
-... This Markdown + HTML approach is not maintainable, so we should not use tables with lists inside them.
-An alternative is:
-
 **Sensor is not turning on**
 
 1.  Turn the robot off
@@ -148,11 +141,7 @@ An alternative is:
     4.  The sensor is not on
 
 
-## If the Issue Persists
-
-Clearpath is committed to your success. Please get in touch with us and we’ll do our best to get you rolling again quickly: <support@clearpathrobotics.com>
-
-If you have a an issue that is specifically about ROS and is something which may be of interest to the broader community, consider asking it on [answers.ros.org](https://answers.ros.org). If you don’t get a satisfactory response, please ping us and include a link to your question as posted there. If appropriate, we’ll answer in the ROS Answers context for the benefit of the community.
+<TroubleshootingContact />
 
 ---
 
