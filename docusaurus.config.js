@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/site-images/favicon.ico',
+  favicon: 'img/site_images/favicon.ico',
 
   i18n: {
     defaultLocale: 'en',
@@ -43,8 +43,8 @@ const config = {
         title: ' ',
         logo: {
           alt: 'Clearpath Robotics',
-          src: 'img/site-images/logo_yellow.png',
-          srcDark: 'img/site-images/logo_white.png',
+          src: 'img/site_images/logo_yellow.png',
+          srcDark: 'img/site_images/logo_white.png',
         },
         items: [
           {
