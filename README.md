@@ -55,7 +55,7 @@ The default address is http://localhost:3000/ but this may change if you are alr
 
 2.  Markdown component, like a section to be reused in multiple pages
 
-        /docs/0_components
+        /components
 
 3.  Images
 
