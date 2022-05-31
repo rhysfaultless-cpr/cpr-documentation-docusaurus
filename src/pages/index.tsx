@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import HomepageMarkdown from '/src/pages/homepage.mdx';
+
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -15,12 +17,7 @@ export default function Home(): JSX.Element {
         description="Description will go into a meta tag in <head />">
       </Layout>
       <div>
-        <p>
-          <br/>
-          We can add whatever JSX elements we want to the homepage, like images, videos, or interactive components.
-          Please forgive the lack of CSS sizing / position for this demo.
-        </p>
-        <img src={'img/site-images/homepage.png'} />
+        <HomepageMarkdown />
       </div>
     </div>
   );
