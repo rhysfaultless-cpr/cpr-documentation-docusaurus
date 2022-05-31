@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
           We can add whatever JSX elements we want to the homepage, like images, videos, or interactive components.
           Please forgive the lack of CSS sizing / position for this demo.
         </p>
-        <img src={'img/cpr-robots-transparent.png'} />
+        <img src={'img/homepage.png'} />
       </div>
     </div>
   );
