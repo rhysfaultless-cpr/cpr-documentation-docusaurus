@@ -80,3 +80,15 @@ The downsides of deploying more branches are:
 - A small cost to AWS for using their Server.
   At the time of writing (May 2022), [AWS charges](https://aws.amazon.com/amplify/pricing/) $0.01 USD per build minutes
   
+## Structure for Sensor pages
+
+1.  Safety
+2.  Item numbers
+3.  Specifications, overview (view angles, mass, voltage, ingress protection)
+4.  specifications, IP addresses
+5.  Specifications, pinout
+6.  Hardware build, part numbers
+7.  Hardware nuild, instructions
+8.  Support, troubleshooting
+9.  Support, contact
+10. Further reading, links
