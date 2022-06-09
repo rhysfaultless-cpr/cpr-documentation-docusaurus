@@ -26,3 +26,49 @@ import Safety from "/components/safety_sensor_none.mdx";
 | Axis F1035-E sensor           | [020068](/assets/clearpath_robotics_020068-TDS1.pdf) | 0736-001          |
 | Axis F1035-E sensor, PACS kit |                        027212                        |                   |
 | Axis F34 controller hub       | [020442](/assets/clearpath_robotics_020442-TDS1.pdf) | 0778-001          |
+
+---
+
+## Specifications
+
+### Overview
+
+| Description                         | Value                |
+| :---------------------------------- | :------------------- |
+| Mass, Camera                        | 96 g                 |
+| Mass, Hub                           | 238 g                |
+| Voltage, Minimum                    | PoE, 8 V             |
+| Voltage, Maximum                    | PoE, 28 V            |
+| Voltage, Sensor                     | PoE, 24 V            |
+| Power, Average                      | 12.6 W               |
+| Data                                | Ethernet, 100 Mbit/s |
+| View, Horizontal                    | 194°                 |
+| View, Vertical                      | 113°                 |
+| Ingress Protection, Solids, Camera  | 6                    |
+| Ingress Protection, Liquids, Camera | 7                    |
+| Ingress Protection, Solids, Hub     | 2                    |
+| Ingress Protection, Liquids, Hub    | 0                    |
+| Operating Temperature, Min          | 0°C                  |
+| Operating Temperature, Max          | 40°C                 |
+
+### IP addresses
+
+| Description               | IP address                                                  |
+| :------------------------ | :---------------------------------------------------------- |
+| Hub                       | 192.168.131.10                                              |
+| Additional Camera Sensors | 192.168.131.11 - 19                                         |
+| Default from Manufacturer | [Axis IP utility](https://help.axis.com/access-your-device) |
+
+### Pinout, Camera, RJ12
+
+| Pin | Description   | Wire colour |
+| :-: | :------------ | :---------- |
+|  1  | Signal 1, -ve | Brown       |
+|  2  | Signal 1, +ve | White-Brown |
+|  3  |               | No Wire     |
+|  4  |               | No Wire     |
+|  5  | Signal 2, +ve | White-Blue  |
+|  6  | Signal 2, -ve | Blue        |
+
+Refer to [021955](/assets/clearpath_robotics_021955.pdf) as an example of a reterminated camera cable.
+The off-the-shelf camera comes from Axis with either a 3 metre, or 10 metre cable.
