@@ -37,12 +37,12 @@
 4.  Test using your local server, using the steps mentioned [Steps to run this on your computer locally](##-steps-to-run-this-on-your-computer-locally)
 5.  When ready, enter `ctrl-c` in your terminal to stop the server. Then run `npm run build` to test that the site builds corretly.
 6.  Resolve any errors that the terminal reports, and rerun the command `npm run build`.
-7.  Finally, check that your updates adhere to our conde formatting standard, by running the command `npx prettier --check "docs"`.
+7.  Finally, check that your updates adhere to our conde formatting standard, by running the command `npx prettier --check components, docs, src, README.md`.
     The terminal will either report:
     - _All matched files use Prettier code style!_
     - _Code style issues found in the above file(s). Forgot to run Prettier?_
-      You can fix the errors by running the command `npx prettier --write "docs"`.
-8.  You will need to confirm that `npx prettier --check "docs"` code formatting did not make any functionality changes to your _.mdx_ documentation.
+      You can fix the errors by running the command `npx prettier --write components, docs, src, README.md`.
+8.  You will need to confirm that `npx prettier --write components, docs, src, README.md` code formatting did not make any functionality changes to your _.mdx_ documentation.
 9.  When ready, publish your branch, and submit a Pull Request to merge your changes into the _development_ branch.
     Pull Requests to the _production_ branch will not merged.
 10. The administrators of this documentation will review the website for any functional issues,
