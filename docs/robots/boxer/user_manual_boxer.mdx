@@ -33,7 +33,10 @@ The HMI has 5 elements:
 5.  E-stop button
 
 <center>
-  <img src="img/robot_boxer_2.png" width="400" />
+  <img
+    src="img/robot_boxer_2.png"
+    width="400"
+  />
 </center>
 
 ### Hardware overview
@@ -41,11 +44,17 @@ The HMI has 5 elements:
 Below is an overview of the Boxer robot hardware that outlines the key components that you should be aware of in order to get started with using your robot.
 
 <center>
-  <img src="/img/robot_boxer_3.png" width="400" />
+  <img
+    src="/img/robot_boxer_3.png"
+    width="400"
+  />
 </center>
 
 <center>
-  <img src="/img/robot_boxer_4.png" width="400" />
+  <img
+    src="/img/robot_boxer_4.png"
+    width="400"
+  />
 </center>
 
 ### Software overview
@@ -118,7 +127,10 @@ Lay the top wood panel down with one end on the edge of the crate and the other 
 Pull the robot out of the crate by hand, and then roll the robot down the wood ramp.
 
 <center>
-  <img src="/img/robot_boxer_5.png" width="400" />
+  <img
+    src="/img/robot_boxer_5.png"
+    width="400"
+  />
 </center>
 
 ### Powering on
@@ -126,11 +138,17 @@ Pull the robot out of the crate by hand, and then roll the robot down the wood r
 1.  Turn the 2 circuit breakers to the on position.
     You will need to lift the metal bar to do this.
     <center>
-      <img src="/img/robot_boxer_6.jpg" width="400" />
+      <img
+        src="/img/robot_boxer_6.jpg"
+        width="400"
+      />
     </center>
 2.  Press the Power Button.
     <center>
-      <img src="/img/robot_boxer_7.png" width="400" />
+      <img
+        src="/img/robot_boxer_7.png"
+        width="400"
+      />
     </center>
 3.  Wait for the system to boot.
     The Boxer's lights will go through a sequence of colors during this process:
@@ -148,16 +166,25 @@ Refer to [Connecting a Vehicle to Your Network](https://help.ottomotors.com/sw22
 1.  Configure a network port on your laptop with the IP address <10.255.255.200>.
 2.  Connect a network cable from the port on your laptop to the network port on the rear of the Base Unit.
     <center>
-      <img src="/img/robot_boxer_8.png" width="400" />
+      <img
+        src="/img/robot_boxer_8.png"
+        width="400"
+      />
     </center>
 3.  On your laptop, open a web-browser like Google Chrome, and go to the address <http://10.255.255.1:8090>
 4.  Enter the required information to connect to your network.
     See your IT administrator for proper settings for your network.
     <center>
-      <img src="/img/robot_boxer_9.png" width="600" />
+      <img
+        src="/img/robot_boxer_9.png"
+        width="600"
+      />
     </center>
     <center>
-      <img src="/img/robot_boxer_10.png" width="600" />
+      <img
+        src="/img/robot_boxer_10.png"
+        width="600"
+      />
     </center>
 5.  Take note of the hostname.
     It will be used in future steps for accessing the robot.
@@ -168,11 +195,17 @@ Refer to [Connecting a Vehicle to Your Network](https://help.ottomotors.com/sw22
     (e.g. [http://A31-002124076:5000](http://A31-002124076:5000) )
     The _OTTO App_ should load, and look similar to the image below.
     <center>
-      <img src="/img/robot_boxer_11.png" width="600" />
+      <img
+        src="/img/robot_boxer_11.png"
+        width="600"
+      />
     </center>
 9.  Adjust the volume to an appropriate level for your facility by selecting the _Vehicle_ option from the top-left menu and adjusting the volume as appropriate.
     <center>
-      <img src="/img/robot_boxer_12.png" width="600" />
+      <img
+        src="/img/robot_boxer_12.png"
+        width="600"
+      />
     </center>
 10. You have finished onfiguring the Boxer base robot, and it's ready for use.
 
@@ -266,10 +299,16 @@ This section details how to get the Robot driving around using the OTTO user int
 1.  Power on the system.
 2.  Ensure that the E-stop is released by pulling out the red button at the rear of the unit, and then pressing the blue Reset button.
     <center>
-      <img src="/img/robot_boxer_13.jpg" width="200" />
+      <img
+        src="/img/robot_boxer_13.jpg"
+        width="200"
+      />
     </center>
     <center>
-      <img src="/img/robot_boxer_14.png" width="200" />
+      <img
+        src="/img/robot_boxer_14.png"
+        width="200"
+      />
     </center>
 3.  Using the base Boxer's hostname or static IP, open the OTTO App by entering the following in your laptop's web-browser:
 
@@ -284,13 +323,19 @@ To drive the robot manually, follow the steps below.
 1.  Power up the robot and connect to the OTTO App at `http://<hostname>:5000`
 2.  The first time after power-up, it is necessary to take the system out of neutral by clicking on the joystick icon at the bottom right of the interface.
     <center>
-      <img src="/img/robot_boxer_15.png" width="600" />
+      <img
+        src="/img/robot_boxer_15.png"
+        width="600"
+      />
     </center>
 3.  Ensure that the system is in manual mode and use the _thumbstick_ at the bottom right of the interface to drive the robot in the desired direction.
     Note that the maximum speed can be adjusted using the slider _Tortoise-Hare_ at the bottom of the interface.
     We recommended you begin at slow speeds until you become comfortable with how to control the robot.
     <center>
-      <img src="/img/robot_boxer_16.png" width="600" />
+      <img
+        src="/img/robot_boxer_16.png"
+        width="600"
+      />
     </center>{" "}
 
 ### 5.1.2 Mapping
@@ -317,7 +362,10 @@ To use the controller:
 4.  For full speed mode, hold the R1 trigger.
     Note that it is recommended that you use full speed mode only when comfortable with the operation of the Boxer.
     <center>
-      <img src="/img/robot_boxer_17.png" width="600" />
+      <img
+        src="/img/robot_boxer_17.png"
+        width="600"
+      />
     </center>{" "}
 
 ### Operation using ROS
@@ -404,13 +452,19 @@ The Boxer plate is made from 8 mm aluminum and can be easily machined according 
 There are 19 premade Ø4.3 mm holes that can be used for mounting payloads to the Boxer.
 
 <center>
-  <img src="/img/robot_boxer_18.png" width="600" />
+  <img
+    src="/img/robot_boxer_18.png"
+    width="600"
+  />
 </center>{" "}
 
 The plate also has eight Ø8 mm holes in the corners which are countersunk from the underside of the plate, making them ideal for flathead screws installed to protrude from the plate.
 
 <center>
-  <img src="/img/robot_boxer_19.png" width="600" />
+  <img
+    src="/img/robot_boxer_19.png"
+    width="600"
+  />
 </center>{" "}
 
 ### 6.2 Electrical Integration
