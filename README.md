@@ -8,7 +8,7 @@
 ## Tools used:
 
 1.  [Node.js](https://nodejs.org/en/)
-2.  [Docusaurus](https://docusaurus.io/) *by Facebook / Meta*
+2.  [Docusaurus](https://docusaurus.io/) _by Facebook / Meta_
 3.  [GitHub](https://github.com/)
 4.  [AWS Amplify](https://aws.amazon.com/amplify/)
 
@@ -25,29 +25,35 @@
 3.  Open the folder
 4.  In a terminal, navigate to the root of the project folder and run `npm install`
 5.  Start the local server by running `npm run start`
-6.  A new tab should open in your prefered web browser once the site is running. 
-    Your terminal session should show the port the webpage is running on. 
+6.  A new tab should open in your prefered web browser once the site is running.
+    Your terminal session should show the port the webpage is running on.
     The default address is http://localhost:3000/ but this may change if you are already using that port for another site.
 
 ## Workflow for making updates:
 
 1.  Clone or fork this repository
-2.  Create a branch from development. with a name indicating the purpose, such as *feature_xxxxxx*
+2.  Create a branch from development. with a name indicating the purpose, such as _feature_xxxxxx_
 3.  Make changes to the relevant files
 4.  Test using your local server, using the steps mentioned [Steps to run this on your computer locally](##-steps-to-run-this-on-your-computer-locally)
 5.  When ready, enter `ctrl-c` in your terminal to stop the server. Then run `npm run build` to test that the site builds corretly.
 6.  Resolve any errors that the terminal reports, and rerun the command `npm run build`.
-7.  When ready, publish your branch, and submit a Pull Request to merge your changes into the *development* branch. 
-    Pull Requests to the *production* branch will not merged.
-8.  The administrators of this documentation will review the website for any functional issues, 
-    and will periodically merge the latest commits in the *development* branch into the *production* branch.
+7.  Finally, check that your updates adhere to our conde formatting standard, by running the command `npm run format-check`.
+    The terminal will either report:
+    - _All matched files use Prettier code style!_
+    - _Code style issues found in the above file(s). Forgot to run Prettier?_
+      You can fix the errors by running the command `npm run format-write`.
+8.  You will need to confirm that `npm run format-write` code formatting did not make any functionality changes to your _.mdx_ documentation.
+9.  When ready, publish your branch, and submit a Pull Request to merge your changes into the _development_ branch.
+    Pull Requests to the _production_ branch will not merged.
+10. The administrators of this documentation will review the website for any functional issues,
+    and will periodically merge the latest commits in the _development_ branch into the _production_ branch.
 
 ## How should I write pages?
 
 1.  Refer to [Markdown's guide](https://www.markdownguide.org/basic-syntax/) for syntax
 2.  Refer to [Docusaurus's guide](https://docusaurus.io/docs/next/markdown-features) for supported Markdown features
 3.  For advanced users, refer to [Markdown MDX](https://mdxjs.com/) for adding React Components to a Markdown file
-4.  for advanced users, you may create React pages using *.js* or *.ts* file types
+4.  for advanced users, you may create React pages using _.js_ or _.ts_ file types
 
 ## Where should I place files?
 
@@ -79,4 +85,16 @@ The downsides of deploying more branches are:
 - Possible time lost, though this may save time by preventing build errors on the _production_ branch
 - A small cost to AWS for using their Server.
   At the time of writing (May 2022), [AWS charges](https://aws.amazon.com/amplify/pricing/) $0.01 USD per build minutes
-  
+
+## Structure for Sensor pages
+
+1.  Safety
+2.  Item numbers
+3.  Specifications, overview (view angles, mass, voltage, ingress protection)
+4.  specifications, IP addresses
+5.  Specifications, pinout
+6.  Hardware build, part numbers
+7.  Hardware nuild, instructions
+8.  Support, troubleshooting
+9.  Support, contact
+10. Further reading, links
