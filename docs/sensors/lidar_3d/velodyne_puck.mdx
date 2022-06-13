@@ -95,15 +95,15 @@ The PACS kit for this sensor includes:
 1.  Mount the sensor (ID 2) to the attachment-plate (ID 1) using a #1/4-20 screw (ID 5).
     Use the centre hole in the attachment-plate for mounting the sensor.
 2.  Mount this assembly onto your robot, using the included spacers (ID 6) and screws (ID 7).
-3.  Connect the wye-cable (ID 3) to a robot’s User Power connector, and to an Ethernet port.
+3.  Connect the wye-cable (ID 3) to a robot's User Power connector, and to an Ethernet port.
     You can optionally mount this cables M12 connetor to a cutout on the robot.
 4.  Make sure the robot is off.
-    Connect the sensor’s cable to the wye-cable from the last step.
+    Connect the sensor's cable to the wye-cable from the last step.
     You may add the extension cable (ID 4) between the sensor and wye-cable.
-5.  There is white painted lettering on the robot’s top plate.
+5.  There is white painted lettering on the robot's top plate.
     This lettering designates sensor locations on the robot.
     Take note of the location that you have mounted this sensor.
-    You will need this sensor location during software installation, to make sure your robot’s URDF is confured correctly.
+    You will need this sensor location during software installation, to make sure your robot's URDF is confured correctly.
 
 ---
 
@@ -121,21 +121,21 @@ The PACS kit for this sensor includes:
 2.  Check that connectors are fully seated
 3.  Turn on the robot and see if the sensor is turning on
 4.  If it does not turn on, unplug the rectangular power connector
-5.  With a multimeter, measure the voltage across positions 2 and 6 on the robot’s connector
+5.  With a multimeter, measure the voltage across positions 2 and 6 on the robot's connector
 6.  If the measurement is 12 V, then there is likely an issue with the sensor, and you should contact Clearpath Robotics
 7.  If the measurement is 0 V, then the 12 V fuse on your robot has likely failed. Shut off the robot, replace the fuse, and then replace the sensor’s rectangular connector.
 
-**Cannot ping the sensor on the robot’s computer**
+**Cannot ping the sensor on the robot's computer**
 
 1.  Turn the robot on
 2.  Connect your laptop to a spare RJ45 Ethernet port on the robot
-3.  Configure your laptop’s Ethernet port to a static address of 192.168.131.250, and a subnet of 255.255.255.0
-4.  In a new terminal session, enter :code: ping 192.168.131.20. This address
-5.  The sensor if working properly if you revceive Reply messages
-6.  If you do not get Reply messages, then the issue is likely:
+3.  Configure your laptop's Ethernet port to a static address of _192.168.131.250_, and a subnet of _255.255.255.0_
+4.  In a new terminal session, enter `ping 192.168.131.20`
+5.  The sensor if working properly if you receive reply messages
+6.  If you do not get reply messages, then the issue is likely:
     1.  Your Ethernet cable has an issue
-    2.  Your laptop’s Ethernet port is not configured properly
-    3.  The sensor’s IP address is not the same as what you entered into the terminal
+    2.  Your laptop's Ethernet port is not configured properly
+    3.  The sensor's IP address is not the same as what you entered into the terminal
     4.  The sensor is not on
 
 ### If the Issue Persists
