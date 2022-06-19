@@ -24,3 +24,21 @@
   --ifm-color-primary-lightest: #f8e15a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@media screen {
+  :root {
+    --ifm-font-size-base: 16px;
+  }
+  article header h1 {
+    font-size: 3.5rem !important;
+  }
+  article h2 {
+    font-size: 2.25rem !important;
+  }
+  article h3 {
+    font-size: 1.35rem !important;
+  }
+  article h4 {
+    font-size: 1rem !important;
+  }
+}
