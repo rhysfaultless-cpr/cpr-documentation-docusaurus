@@ -43,6 +43,12 @@
     - _Code style issues found in the above file(s). Forgot to run Prettier?_
       You can fix the errors by running the command `npm run format-write`.
 8.  You will need to confirm that `npm run format-write` code formatting did not make any functionality changes to your _.mdx_ documentation.
+    You may see files that claim to be updated in Source Control, but don't have any visible changes. 
+    You should run these commands in your terminal to prevent Git from noting these types of changes:
+    
+            git config --global core.filemode false
+            git config --global core.autocrlf false
+
 9.  When ready, publish your branch, and submit a Pull Request to merge your changes into the _development_ branch.
     Pull Requests to the _production_ branch will not merged.
 10. The administrators of this documentation will review the website for any functional issues,
